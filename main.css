@@ -1,0 +1,182 @@
+
+
+.title h1 {
+	text-align: center;
+}
+
+.main{
+	width: 85%;
+	height: 550px;
+	float:center;
+	margin:0px auto;	
+}
+.main td{
+	vertical-align: top;
+}
+
+
+.menu{
+	width:100%;
+	text-align: center;
+}
+
+.menu td{
+	text-align: center;
+	background-color: #33CC33;
+}
+
+a { color: inherit; } 
+
+.nome_menu{
+	font-weight: bold;
+}
+
+.div_left{
+	width: 48%;
+	float:left;
+	margin-top: 10px;
+}
+
+.loginWrapper{
+	height: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.loginContainer{
+	display: table-cell; 
+	vertical-align: middle;
+
+}
+
+.profile_pic{
+		border-radius: 50%;
+		margin: 10px;
+		height: 180px;
+		width: 180px;
+	}
+	label{
+		font-weight: bold;
+	}
+	.profile_pic_div{
+		margin: 0px;
+		border: 1px solid #000000;
+		padding: 0px;
+		height: 100%;
+		width:29%;
+		float: right;
+		text-align: center;
+	}
+	.personal_info_wrapper{
+		
+		height: 100%;
+		width: 70%;
+		float: left;
+		
+	}
+	.personal_info{
+		margin:0px;
+		padding: 20px;
+		text-align: left;
+		height: auto;
+
+	}
+	.nome label {
+		font-weight: bold;
+		font-size: 15pt;
+	}
+	.nome{
+		font-size: 20pt;
+		width: 100%;
+	}
+	.personal_left{
+		width: 48%;
+		float:left;
+		margin-top: 10px;
+	}
+	.personal_right{
+		width: 48%;
+		float: right;
+		margin-top: 10px;
+	}
+
+	.loginContainer{
+		display: table-cell;
+		vertical-align: middle;
+
+	}
+	.loginWrapper{
+		display: table;
+		height: 100%;
+		margin: 0 auto;
+	}
+	
+	.alergias{
+		width: 100%;
+		float: left;
+		text-align: left;
+		height: 100px;
+		border: 1px solid #000000;
+
+	}
+	.credenciais{
+		width: 100%;
+		float: left;
+		text-align: left;
+		height: 100px;
+		
+
+	}
+	.button_bar{
+		width:100%;
+		float: left;
+	}
+	.button{
+		width:120px;
+		height: 50px; 
+		background-color: #4285F4; 
+		border-radius: 25px;
+		margin: 10px;
+		margin-top: 20px;
+		text-align: center;
+		float: right;
+		
+	}
+	.button a{
+		line-height: 50px; 
+		vertical-align: middle;
+	}
+	.user_page{
+		height: 95%;
+		margin: 20px; 
+		border: 1px solid #CCC; 
+		padding: 0px;
+        border-radius: 1em; 
+        text-align: left; 
+        background-color: #33CC33;
+	}
+
+
+
+
+input{
+	margin: 5px;
+}
+.div_right{
+		width: 48%;
+		float: right;
+		margin-top: 10px;
+	}
+
+
+.main #opcoes {
+
+	border: 1px gray; 
+	text-align: left;
+	background-color: #33CC33;
+}
+
+.content {
+	height: 500px;
+	text-align: center;
+}
+
