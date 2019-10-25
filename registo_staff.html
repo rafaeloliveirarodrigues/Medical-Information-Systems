@@ -1,0 +1,44 @@
+
+<style>
+.registo input{
+	width: 100%;
+
+}
+.registo select{
+	width: 100%;
+	margin:5px;
+	
+}
+.registo textarea{
+	
+	margin:5px;
+
+	
+}
+
+
+</style>
+
+
+<div class="registo" style="width:100%;display: inline-block;">
+
+	<form method="post"  enctype="multipart/form-data"  action="index.php?operacao=checkRegisto&tipo=staff"style="margin: 15px; border: 1px solid #CCC; padding: 30px;
+    border-radius: 1em; text-align: left; background-color: green;">
+
+    <div class="div_left">
+	<label>Nome:   </label><br>
+	<input type="text" name="nome"> <br>
+	<label>Username:</label>
+	<input type="username" name="username">
+	</div>
+	 <div class="div_right">
+	 	<label>Role:</label>
+	    <select name="role"><option value="2">Obstetra</option><option value="3">Investigador</option></select> <br>
+	    <label>Password:</label>
+	    <input type="password" name="password"> <br>
+	 </div>
+	
+	<input type="password" name="pass" style="visibility:hidden"> <br><br>
+	<input type="submit" name="submit" value="Registo"  align="right" style="float:right;width: 150px;">
+   </form>
+</div>
