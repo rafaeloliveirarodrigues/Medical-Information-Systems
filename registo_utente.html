@@ -1,0 +1,75 @@
+
+<style>
+.registo input{
+	width: 100%;
+
+}
+.registo select{
+	width: 100%;
+	margin:5px;
+	
+}
+.registo textarea{
+	
+	margin:5px;
+
+	
+}
+
+
+</style>
+
+
+<div class="registo" style="width:100%;display: inline-block;">
+
+	<form method="post"  enctype="multipart/form-data"  action="index.php?operacao=checkRegisto&tipo=utente"style="margin: 15px; border: 1px solid #CCC; padding: 30px;
+    border-radius: 1em; text-align: left; background-color: green;">
+
+    <div class="div_left">
+	<label>Nome:   </label><br>
+	<input type="text" name="nome"> <br>
+	<label>Telefone: </label><br>
+	<input type="tel" name="contacto" maxlength="9"><br>
+	<label>Data Nascimento: </label><br>
+	<input type="date" name="data_nascimento"> <br>
+	<label>Sexo: </label><br>
+	<select name="sexo"><option>Masculino</option><option>Feminino</option></select> <br>
+	<label>Cartao Saude: </label>
+	<input type="text" name="cartao_saude"  maxlength="9"> <br> 
+	</div>
+
+	<div class="div_right">
+	<label>Morada:   </label><br>
+	<input type="text" name="morada"> <br>
+	<label>Localidade:   </label><br>
+	<input type="text" name="localidade"> <br>
+	<label>Email: </label><br>
+	<input type="email" name="email"><br>
+	<label>NIF: </label><br>
+	<input type="text" name="nif"  maxlength="9"> <br><br>
+	</div>
+	<div class="alergias"><label>Alergias</label><br>
+	<textarea rows="4" cols="100" name="alergias" placeholder="Escreva aqui as suas alergias..."></textarea>
+    </div>
+    <div class="credenciais">
+    	<br>
+    	<label>Foto de Registo:</label>
+		<br><br>
+		<input type="file" name="image">
+    </div>
+	
+	
+	
+	 <div class="div_left">
+	 	<label>Username:</label>
+	<input type="username" name="username">
+	 </div>
+	 <div class="div_right">
+	 	<label>Password:</label>
+	<input type="password" name="password"> <br><br>
+	 </div>
+	
+	<input type="password" name="pass" style="visibility:hidden"> <br><br>
+	<input type="submit" name="submit" value="Registo"  align="right" style="float:right;width: 150px;">
+   </form>
+</div>
